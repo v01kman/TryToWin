@@ -107,6 +107,7 @@ public class MyActivity extends Activity
     private ImageView button_slide;
     private ImageView button_menu;
     private Bitmap[] t_obstacle;
+    private Bitmap[] fall_player;
 
     //text
     private TextView distance_txt;
@@ -444,6 +445,27 @@ public class MyActivity extends Activity
         layout.addView(background3);
 
         //player
+        fall_player = new Bitmap[5];
+        try
+        {
+            InputStream ims = getAssets().open("tiles2.png");
+            bitmap = BitmapFactory.decodeStream(ims);
+        }
+        catch(IOException ex)
+        {
+            return;
+        }
+        t_bitmap = Bitmap.createBitmap(bitmap, 0, 0, 128, 256);
+        fall_player[0] = Bitmap.createScaledBitmap(t_bitmap, 64, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 128, 0, 166, 256);
+        fall_player[1] = Bitmap.createScaledBitmap(t_bitmap, 83, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 326, 0, 196, 256);
+        fall_player[2] = Bitmap.createScaledBitmap(t_bitmap, 98, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 546, 0, 222, 256);
+        fall_player[3] = Bitmap.createScaledBitmap(t_bitmap, 111, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 767, 0, 256, 256);
+        fall_player[4] = Bitmap.createScaledBitmap(t_bitmap, 128, 128, false);
+
         player = new ImageView(this);
         final Bitmap[] t_player = new Bitmap[6];
         try
@@ -927,6 +949,41 @@ public class MyActivity extends Activity
                         main_timer.cancel();
                         main_timer = new Timer();
                         layout.removeView(button_menu);
+
+                        //screenHeight / 2 - 52
+                        float offset_y = 0;
+                        if (player_y < screenHeight/2-52)
+                        {
+                            offset_y = (screenHeight/2-52 - player_y) / 5;
+                        }
+                        final boolean[] f = {true};
+                        final int[] j = {0};
+                        Timer fall_timer = new Timer();
+                        final float finalOffset_y = offset_y;
+                        fall_timer.schedule(new TimerTask()
+                        {
+                            @Override
+                            public void run()
+                            {
+                                MyActivity.this.runOnUiThread(new Runnable()
+                                {
+                                    public void run()
+                                    {
+                                        if (f[0])
+                                        {
+                                            player.setImageBitmap(fall_player[j[0]]);
+                                            player.setY(player.getY()+ finalOffset_y);
+                                            j[0]++;
+                                            if (j[0] == 5)
+                                            {
+                                                f[0] = false;
+                                            }
+                                        }
+                                    }
+                                });
+                            }
+                        }, 0, 75);
+
                         makeGameOver();
                     }
                 }
