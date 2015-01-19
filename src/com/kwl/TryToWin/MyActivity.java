@@ -558,7 +558,7 @@ public class MyActivity extends Activity
 
 
         //obstacles
-        t_obstacle = new Bitmap[1];
+        t_obstacle = new Bitmap[5];
         try
         {
             InputStream ims = getAssets().open("tiles.png");
@@ -569,6 +569,7 @@ public class MyActivity extends Activity
             return;
         }
         t_obstacle[0] = Bitmap.createBitmap(bitmap, 0, 256, 50, 50);
+        t_obstacle[1] = Bitmap.createBitmap(bitmap, 128, 256, 100, 100);
 
         obstacles = new Obstacle[obstacles_num];
         generateObstacle();
@@ -911,9 +912,9 @@ public class MyActivity extends Activity
 
     private void generateObstacle()
     {
-        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2+25, 50, 50, 1);
+        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 100, 100, 2);
         obstacles_view[obstacles_current_num] = new ImageView(this);
-        obstacles_view[obstacles_current_num].setImageBitmap(t_obstacle[0]);
+        obstacles_view[obstacles_current_num].setImageBitmap(t_obstacle[1]);
         obstacles_view[obstacles_current_num].setX(obstacles[obstacles_current_num].getX());
         obstacles_view[obstacles_current_num].setY(obstacles[obstacles_current_num].getY());
         layout.addView(obstacles_view[obstacles_current_num]);
