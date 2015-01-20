@@ -81,6 +81,7 @@ public class MyActivity extends Activity
     private boolean isJumpingUp;
     private boolean isJumpingDown;
     private boolean isSliding;
+    private boolean isOnObstacle;
     private float global_speed;
     private float last_obstacle;
     private Obstacle[] obstacles;
@@ -88,6 +89,8 @@ public class MyActivity extends Activity
     private float player_y;
     private float player_x;
     private float y_high;
+    private int slide_time;
+    private int slide_state;
     private float distance;
 
     //screen resolution
@@ -108,6 +111,7 @@ public class MyActivity extends Activity
     private ImageView button_menu;
     private Bitmap[] t_obstacle;
     private Bitmap[] fall_player;
+    private Bitmap[] slide_player;
 
     //text
     private TextView distance_txt;
@@ -413,6 +417,7 @@ public class MyActivity extends Activity
         isSliding = false;
         isJumpingUp = false;
         isJumpingDown = false;
+        isOnObstacle = false;
         distance = 0f;
 
         Bitmap bitmap;
@@ -446,6 +451,7 @@ public class MyActivity extends Activity
 
         //player
         fall_player = new Bitmap[5];
+        slide_player = new Bitmap[5];
         try
         {
             InputStream ims = getAssets().open("tiles2.png");
@@ -465,6 +471,17 @@ public class MyActivity extends Activity
         fall_player[3] = Bitmap.createScaledBitmap(t_bitmap, 111, 128, false);
         t_bitmap = Bitmap.createBitmap(bitmap, 767, 0, 256, 256);
         fall_player[4] = Bitmap.createScaledBitmap(t_bitmap, 128, 128, false);
+
+        t_bitmap = Bitmap.createBitmap(bitmap, 0, 256, 128, 256);
+        slide_player[0] = Bitmap.createScaledBitmap(t_bitmap, 64, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 128, 256, 176, 256);
+        slide_player[1] = Bitmap.createScaledBitmap(t_bitmap, 88, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 328, 256, 184, 256);
+        slide_player[2] = Bitmap.createScaledBitmap(t_bitmap, 92, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 512, 256, 256, 256);
+        slide_player[3] = Bitmap.createScaledBitmap(t_bitmap, 128, 128, false);
+        t_bitmap = Bitmap.createBitmap(bitmap, 768, 256, 256, 256);
+        slide_player[4] = Bitmap.createScaledBitmap(t_bitmap, 128, 128, false);
 
         player = new ImageView(this);
         final Bitmap[] t_player = new Bitmap[6];
@@ -631,13 +648,62 @@ public class MyActivity extends Activity
                         {
                             current_player = 0;
                         }
-                        if (!isJumping)
+
+                        /*if (isJumping)
                         {
-                            player.setImageBitmap(t_player[Math.round(current_player - current_player % 1)]);
+                            player.setImageBitmap(t_player[5]);
+                        }
+                        else if (isSliding)
+                        {
+                            if (slide_state < 5)
+                            {
+                                player.setImageBitmap(slide_player[slide_state]);
+                            }
+                            else
+                            {
+                                player.setImageBitmap(slide_player[4]);
+                            }
+
+                            slide_time++;
+                            slide_state = Math.round(slide_time/5);
+
+                            if (slide_time > 35)
+                            {
+                                isSliding = false;
+                            }
                         }
                         else
                         {
+                            player.setImageBitmap(t_player[Math.round(current_player - current_player % 1)]);
+                        }*/
+
+
+                        if (!isJumping && !isSliding)
+                        {
+                            player.setImageBitmap(t_player[Math.round(current_player - current_player % 1)]);
+                        }
+                        else if (isJumping)
+                        {
                             player.setImageBitmap(t_player[5]);
+                        }
+                        else if (isSliding)
+                        {
+                            if (slide_state < 5)
+                            {
+                                player.setImageBitmap(slide_player[slide_state]);
+                            }
+                            else
+                            {
+                                player.setImageBitmap(slide_player[4]);
+                            }
+
+                            slide_time++;
+                            slide_state = Math.round(slide_time/5);
+
+                            if (slide_time > 35)
+                            {
+                                isSliding = false;
+                            }
                         }
                         //------------------
 
@@ -912,7 +978,7 @@ public class MyActivity extends Activity
 
     private void generateObstacle()
     {
-        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 100, 100, 2);
+        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 1000, 100, 2);
         obstacles_view[obstacles_current_num] = new ImageView(this);
         obstacles_view[obstacles_current_num].setImageBitmap(t_obstacle[1]);
         obstacles_view[obstacles_current_num].setX(obstacles[obstacles_current_num].getX());
@@ -973,7 +1039,7 @@ public class MyActivity extends Activity
                                         if (f[0])
                                         {
                                             player.setImageBitmap(fall_player[j[0]]);
-                                            player.setX(player.getX()+global_speed*3);
+                                            player.setX(player.getX() + global_speed*4);
                                             player.setY(player.getY()+ finalOffset_y);
                                             j[0]++;
                                             if (j[0] == 5)
@@ -992,7 +1058,7 @@ public class MyActivity extends Activity
             }
         }
 
-        if (!detected && (player_y < screenHeight / 2 - 52) && !isJumping)
+        if ( !detected && (player_y < screenHeight / 2 - 52) && !isJumping )
         {
             isJumping = true;
             isJumpingDown = true;
@@ -1067,7 +1133,7 @@ public class MyActivity extends Activity
         {
             if (id == 1) // jump
             {
-                if (!isJumping)
+                if (!isJumping && !isSliding)
                 {
                     isJumping = true;
                     isJumpingUp = true;
@@ -1076,7 +1142,12 @@ public class MyActivity extends Activity
             }
             else if (id == 2) // slide
             {
-                isSliding = true;
+                if (!isSliding && !isJumping)
+                {
+                    isSliding = true;
+                    slide_time = 0;
+                    slide_state = 0;
+                }
             }
             else if (id == 3) // refresh
             {
