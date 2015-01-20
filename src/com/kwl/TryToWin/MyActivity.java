@@ -972,6 +972,17 @@ public class MyActivity extends Activity
                                     {
                                         if (f[0])
                                         {
+                                            background1.setX(background1.getX()-global_speed);
+                                            background2.setX(background2.getX()-global_speed);
+                                            background3.setX(background3.getX()-global_speed);
+                                            for (int i=0; i<obstacles_num; i++)
+                                            {
+                                                if (obstacles[i] != null)
+                                                {
+                                                    obstacles_view[i].setX(obstacles_view[i].getX() - global_speed);
+                                                }
+                                            }
+
                                             player.setImageBitmap(fall_player[j[0]]);
                                             player.setY(player.getY()+ finalOffset_y);
                                             j[0]++;

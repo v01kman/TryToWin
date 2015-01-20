@@ -44,88 +44,30 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18771331" vertical-offset="3902" max-vertical-offset="6783">
-              <caret line="560" column="33" selection-start-line="560" selection-start-column="33" selection-end-line="560" selection-end-column="33" />
+            <state vertical-scroll-proportion="1.2911612" vertical-offset="700" max-vertical-offset="1564">
+              <caret line="1109" column="1" selection-start-line="1109" selection-start-column="1" selection-end-line="1109" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="class#Obstacle#0" expanded="false" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
                 <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#6701#8216#0" expanded="true" />
-                <element signature="e#6839#8190#0" expanded="true" />
-                <element signature="e#8189#8190#0" expanded="true" />
-                <element signature="e#8215#8216#0" expanded="true" />
                 <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#19587#23951#0" expanded="true" />
-                <element signature="e#19725#23925#0" expanded="true" />
-                <element signature="e#23924#23925#0" expanded="true" />
-                <element signature="e#23950#23951#0" expanded="true" />
+                <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#33913#34697#0" expanded="true" />
-                <element signature="e#34696#34697#0" expanded="true" />
                 <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#36340#36508#0" expanded="true" />
-                <element signature="e#36507#36508#0" expanded="true" />
                 <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#36657#36658#0" expanded="true" />
-                <element signature="e#36693#36694#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="2006">
-              <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#8018#8019#0" expanded="false" />
-                <element signature="e#8065#8066#0" expanded="false" />
-                <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#9402#9570#0" expanded="false" />
-                <element signature="e#9569#9570#0" expanded="false" />
-                <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-                <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#51399#51400#0" expanded="false" />
-                <element signature="e#51435#51436#0" expanded="false" />
-                <element signature="e#52586#53086#0" expanded="false" />
-                <element signature="e#52764#53043#0" expanded="false" />
-                <element signature="e#53042#53043#0" expanded="false" />
-                <element signature="e#53085#53086#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,8 +100,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -184,8 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,30 +144,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TryToWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TryToWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TryToWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActivity.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,11 +158,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/my projects/java/lead bolt sdk/AppFireworks/AppFireworks.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="NX40X" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -409,8 +334,8 @@
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -443,36 +368,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32174888" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32216215" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32174888" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16151386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -505,85 +430,125 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="2006">
-          <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="238">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
+            <element signature="class#Obstacle#0" expanded="false" />
+            <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="238">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6783">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#Obstacle#0" expanded="false" />
+            <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
+            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="238">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#Obstacle#0" expanded="false" />
+            <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
+            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,90 +569,17 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="2006">
-          <caret line="585" column="4" selection-start-line="585" selection-start-column="4" selection-end-line="585" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/FunnyRunner/FunnyRunner/src/com/kwl/funnyrunner/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4417" max-vertical-offset="6562">
-          <caret line="288" column="16" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -707,82 +599,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="2006">
-          <caret line="585" column="4" selection-start-line="585" selection-start-column="4" selection-end-line="585" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -803,82 +629,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7973" max-vertical-offset="10523">
-          <caret line="1521" column="16" selection-start-line="1521" selection-start-column="16" selection-end-line="1536" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,82 +659,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7973" max-vertical-offset="10353">
-          <caret line="1521" column="16" selection-start-line="1521" selection-start-column="16" selection-end-line="1536" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,82 +689,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1414" max-vertical-offset="2006">
-          <caret line="1013" column="4" selection-start-line="1013" selection-start-column="4" selection-end-line="1013" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1105,116 +733,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/FunnyRunner/FunnyRunner/src/com/kwl/funnyrunner/GameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="4145" max-vertical-offset="6477">
-          <caret line="277" column="32" selection-start-line="277" selection-start-column="29" selection-end-line="277" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/FunnyRunner/FunnyRunner/src/com/kwl/funnyrunner/OverlapTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="9" column="114" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/FunnyRunner/FunnyRunner/src/com/kwl/funnyrunner/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4417" max-vertical-offset="6562">
-          <caret line="288" column="16" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/my projects/java/the15puzzle/src/com/kwl/the15puzzle/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="2006">
-          <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#generate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#reset#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#moveIt#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#placeButtons#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkWin#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#MyActivity#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#initializeLeadBolt#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8065#8066#0" expanded="false" />
-            <element signature="method#loadDisplayAd#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#9402#9570#0" expanded="false" />
-            <element signature="e#9569#9570#0" expanded="false" />
-            <element signature="method#fillParts#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#buildGameField#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameOver#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameStats#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#gameHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#makeHelp#0;class#MyActivity#0" expanded="false" />
-            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#51399#51400#0" expanded="false" />
-            <element signature="e#51435#51436#0" expanded="false" />
-            <element signature="e#52586#53086#0" expanded="false" />
-            <element signature="e#52764#53043#0" expanded="false" />
-            <element signature="e#53042#53043#0" expanded="false" />
-            <element signature="e#53085#53086#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18771331" vertical-offset="3902" max-vertical-offset="6783">
-          <caret line="560" column="33" selection-start-line="560" selection-start-column="33" selection-end-line="560" selection-end-column="33" />
+        <state vertical-scroll-proportion="1.2911612" vertical-offset="700" max-vertical-offset="1564">
+          <caret line="1109" column="1" selection-start-line="1109" selection-start-column="1" selection-end-line="1109" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#Obstacle#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6701#8216#0" expanded="true" />
-            <element signature="e#6839#8190#0" expanded="true" />
-            <element signature="e#8189#8190#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#19587#23951#0" expanded="true" />
-            <element signature="e#19725#23925#0" expanded="true" />
-            <element signature="e#23924#23925#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#33913#34697#0" expanded="true" />
-            <element signature="e#34696#34697#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36340#36508#0" expanded="true" />
-            <element signature="e#36507#36508#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#36657#36658#0" expanded="true" />
-            <element signature="e#36693#36694#0" expanded="true" />
           </folding>
         </state>
       </provider>
