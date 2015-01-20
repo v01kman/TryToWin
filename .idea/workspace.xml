@@ -13,9 +13,6 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.kwl.TryToWin" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7c9d4e-7a56-4aad-bea0-3635bd59a564" name="Default" comment="" />
     <ignored path="TryToWin.iws" />
@@ -44,8 +41,8 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2911612" vertical-offset="700" max-vertical-offset="1564">
-              <caret line="1109" column="1" selection-start-line="1109" selection-start-column="1" selection-end-line="1109" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.57624114" vertical-offset="1766" max-vertical-offset="2618">
+              <caret line="987" column="0" selection-start-line="987" selection-start-column="0" selection-end-line="987" selection-end-column="0" />
               <folding>
                 <element signature="class#Obstacle#0" expanded="false" />
                 <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
@@ -53,7 +50,6 @@
                 <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
                 <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -126,6 +122,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,8 +144,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,12 +364,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -381,6 +378,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32174888" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -390,14 +388,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -439,7 +435,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -477,7 +472,43 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
+            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="238">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#Obstacle#0" expanded="false" />
+            <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -515,7 +546,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -545,7 +575,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -575,7 +604,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -605,7 +633,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -635,7 +662,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -665,7 +691,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -695,7 +720,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
@@ -743,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2911612" vertical-offset="700" max-vertical-offset="1564">
-          <caret line="1109" column="1" selection-start-line="1109" selection-start-column="1" selection-end-line="1109" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.57624114" vertical-offset="1766" max-vertical-offset="2618">
+          <caret line="987" column="0" selection-start-line="987" selection-start-column="0" selection-end-line="987" selection-end-column="0" />
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
@@ -752,7 +776,6 @@
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
