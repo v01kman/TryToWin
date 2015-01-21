@@ -1020,7 +1020,7 @@ public class MyActivity extends Activity
             {
                 if ( isSliding )
                 {
-                    if ((player_x + 4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 60 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
+                    if ((player_x + 4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 120 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
                     {
                         if (isOnObstacle)
                         {
@@ -1028,7 +1028,46 @@ public class MyActivity extends Activity
                         }
                         else
                         {
+                            main_timer.cancel();
+                            main_timer = new Timer();
+                            layout.removeView(button_menu);
 
+                            //screenHeight / 2 - 52
+                            float offset_y = 0;
+                            if (player_y < screenHeight / 2 - 52)
+                            {
+                                offset_y = (screenHeight / 2 - 52 - player_y) / 5;
+                            }
+                            final boolean[] f = {true};
+                            final int[] j = {0};
+                            Timer fall_timer = new Timer();
+                            final float finalOffset_y = offset_y;
+                            fall_timer.schedule(new TimerTask()
+                            {
+                                @Override
+                                public void run()
+                                {
+                                    MyActivity.this.runOnUiThread(new Runnable()
+                                    {
+                                        public void run()
+                                        {
+                                            if (f[0])
+                                            {
+                                                player.setImageBitmap(fall_player[j[0]]);
+                                                player.setX(player.getX() + global_speed * 4);
+                                                player.setY(player.getY() + finalOffset_y);
+                                                j[0]++;
+                                                if (j[0] == 5)
+                                                {
+                                                    f[0] = false;
+                                                }
+                                            }
+                                        }
+                                    });
+                                }
+                            }, 0, 75);
+
+                            makeGameOver();
                         }
                     }
                 }
@@ -1040,7 +1079,7 @@ public class MyActivity extends Activity
                         {
                             if (isOnObstacle)
                             {
-                                if ((obstacles[i].getX() + obstacles[i].getWidth() - player_x < 10))
+                                if ((obstacles[i].getX() + obstacles[i].getWidth() - player_x < global_speed*2.5))
                                 {
                                     isJumping = true;
                                     isJumpingDown = true;
