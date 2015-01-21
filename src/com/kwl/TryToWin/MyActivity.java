@@ -82,6 +82,7 @@ public class MyActivity extends Activity
     private boolean isJumpingDown;
     private boolean isSliding;
     private boolean isOnObstacle;
+    private boolean isDetected;
     private float global_speed;
     private float last_obstacle;
     private Obstacle[] obstacles;
@@ -418,6 +419,7 @@ public class MyActivity extends Activity
         isJumpingUp = false;
         isJumpingDown = false;
         isOnObstacle = false;
+        isDetected = false;
         distance = 0f;
 
         Bitmap bitmap;
@@ -741,6 +743,23 @@ public class MyActivity extends Activity
                         distance += global_speed/50;
                         distance_txt.setText("Distance: "+Math.round(distance));
 
+                        /*if (isOnObstacle)
+                        {
+                            distance_txt.setText("OBS");
+                        }
+                        else if(isJumpingUp)
+                        {
+                            distance_txt.setText("UP");
+                        }
+                        else if (isJumpingDown)
+                        {
+                            distance_txt.setText("DOWN");
+                        }
+                        else
+                        {
+                            distance_txt.setText("RUN");
+                        }*/
+
                         checkCollision();
                         //----------------
                     }
@@ -978,7 +997,7 @@ public class MyActivity extends Activity
 
     private void generateObstacle()
     {
-        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 1000, 100, 2);
+        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 100, 100, 2);
         obstacles_view[obstacles_current_num] = new ImageView(this);
         obstacles_view[obstacles_current_num].setImageBitmap(t_obstacle[1]);
         obstacles_view[obstacles_current_num].setX(obstacles[obstacles_current_num].getX());
@@ -993,76 +1012,118 @@ public class MyActivity extends Activity
 
     private void checkCollision()
     {
-        boolean detected = false;
+        isDetected = false;
 
         for (int i=0; i<obstacles_num; i++)
         {
             if (obstacles[i] != null)
             {
-                if ( (player_x+4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 60 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
+                if ( isSliding )
                 {
-                    detected = true;
-
-                    if (isJumpingDown)
+                    if ((player_x + 4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 60 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
                     {
-                        isJumping = false;
-                        isJumpingDown = false;
-
-                        player_y = obstacles[i].getY() - 120;
-                        player.setY(player_y);
-                    }
-                    else
-                    {
-                        main_timer.cancel();
-                        main_timer = new Timer();
-                        layout.removeView(button_menu);
-
-                        //screenHeight / 2 - 52
-                        float offset_y = 0;
-                        if (player_y < screenHeight/2-52)
+                        if (isOnObstacle)
                         {
-                            offset_y = (screenHeight/2-52 - player_y) / 5;
+
                         }
-                        final boolean[] f = {true};
-                        final int[] j = {0};
-                        Timer fall_timer = new Timer();
-                        final float finalOffset_y = offset_y;
-                        fall_timer.schedule(new TimerTask()
+                        else
                         {
-                            @Override
-                            public void run()
+
+                        }
+                    }
+                }
+                else
+                {
+                    if ((player_x + 4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 60 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
+                    {
+                        if (isJumpingDown || isOnObstacle)
+                        {
+                            if (isOnObstacle)
                             {
-                                MyActivity.this.runOnUiThread(new Runnable()
+                                if ((obstacles[i].getX() + obstacles[i].getWidth() - player_x < 10))
                                 {
-                                    public void run()
+                                    isJumping = true;
+                                    isJumpingDown = true;
+                                    isOnObstacle = false;
+                                    isSliding = false;
+                                }
+                            } else
+                            {
+                                isDetected = true;
+                                isOnObstacle = true;
+                                isJumping = false;
+                                isJumpingDown = false;
+                                isJumpingUp = false;
+
+                                player_y = obstacles[i].getY() - 117;
+                                player.setY(player_y);
+                            }
+                        } else
+                        {
+                            main_timer.cancel();
+                            main_timer = new Timer();
+                            layout.removeView(button_menu);
+
+                            //screenHeight / 2 - 52
+                            float offset_y = 0;
+                            if (player_y < screenHeight / 2 - 52)
+                            {
+                                offset_y = (screenHeight / 2 - 52 - player_y) / 5;
+                            }
+                            final boolean[] f = {true};
+                            final int[] j = {0};
+                            Timer fall_timer = new Timer();
+                            final float finalOffset_y = offset_y;
+                            fall_timer.schedule(new TimerTask()
+                            {
+                                @Override
+                                public void run()
+                                {
+                                    MyActivity.this.runOnUiThread(new Runnable()
                                     {
-                                        if (f[0])
+                                        public void run()
                                         {
-                                            player.setImageBitmap(fall_player[j[0]]);
-                                            player.setX(player.getX() + global_speed*4);
-                                            player.setY(player.getY()+ finalOffset_y);
-                                            j[0]++;
-                                            if (j[0] == 5)
+                                            if (f[0])
                                             {
-                                                f[0] = false;
+                                                player.setImageBitmap(fall_player[j[0]]);
+                                                player.setX(player.getX() + global_speed * 4);
+                                                player.setY(player.getY() + finalOffset_y);
+                                                j[0]++;
+                                                if (j[0] == 5)
+                                                {
+                                                    f[0] = false;
+                                                }
                                             }
                                         }
-                                    }
-                                });
-                            }
-                        }, 0, 75);
+                                    });
+                                }
+                            }, 0, 75);
 
-                        makeGameOver();
+                            makeGameOver();
+                        }
                     }
+                    /*else
+                    {
+                        if (isOnObstacle)
+                        {
+                            isJumping = true;
+                            isJumpingDown = true;
+                            isOnObstacle = false;
+                        }
+                    }*/
                 }
             }
         }
 
-        if ( !detected && (player_y < screenHeight / 2 - 52) && !isJumping )
+        /*if (!isDetected)
         {
-            isJumping = true;
-            isJumpingDown = true;
-        }
+            if (isOnObstacle)
+            {
+                isJumping = true;
+                isJumpingDown = true;
+                isOnObstacle = false;
+            }
+        }*/
     }
 
     @Override
@@ -1137,6 +1198,7 @@ public class MyActivity extends Activity
                 {
                     isJumping = true;
                     isJumpingUp = true;
+                    isOnObstacle = false;
                     y_high = player_y - 150f;
                 }
             }
