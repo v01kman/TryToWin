@@ -44,36 +44,17 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61130744" vertical-offset="980" max-vertical-offset="1649">
-              <caret line="1014" column="4" selection-start-line="1014" selection-start-column="4" selection-end-line="1014" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.5918728" vertical-offset="1297" max-vertical-offset="4012">
+              <caret line="1032" column="50" selection-start-line="1032" selection-start-column="50" selection-end-line="1032" selection-end-column="50" />
               <folding>
                 <element signature="class#Obstacle#0" expanded="false" />
                 <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#6859#8374#0" expanded="true" />
-                <element signature="e#6997#8348#0" expanded="true" />
-                <element signature="e#8347#8348#0" expanded="true" />
-                <element signature="e#8373#8374#0" expanded="true" />
                 <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#20650#27449#0" expanded="true" />
-                <element signature="e#20788#27423#0" expanded="true" />
-                <element signature="e#27422#27423#0" expanded="true" />
-                <element signature="e#27448#27449#0" expanded="true" />
                 <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#37464#38708#0" expanded="true" />
-                <element signature="e#37702#38642#0" expanded="true" />
-                <element signature="e#38641#38642#0" expanded="true" />
-                <element signature="e#38707#38708#0" expanded="true" />
-                <element signature="e#40917#42161#0" expanded="true" />
-                <element signature="e#41155#42095#0" expanded="true" />
-                <element signature="e#42094#42095#0" expanded="true" />
-                <element signature="e#42160#42161#0" expanded="true" />
                 <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-                <element signature="e#44147#44315#0" expanded="true" />
-                <element signature="e#44314#44315#0" expanded="true" />
                 <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
               </folding>
             </state>
@@ -122,7 +103,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,6 +123,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +350,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -377,9 +357,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31950673" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31950673" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.159375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -387,12 +366,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -425,36 +406,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#Obstacle#0" expanded="false" />
+            <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
+            <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5049">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -467,31 +447,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -504,31 +465,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -541,31 +483,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -597,31 +520,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -653,31 +557,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -709,31 +594,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -765,31 +631,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -813,31 +660,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -861,31 +689,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -909,31 +718,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -957,31 +747,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -1005,31 +776,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -1053,31 +805,12 @@
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
@@ -1122,36 +855,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kwl/TryToWin/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61130744" vertical-offset="980" max-vertical-offset="1649">
-          <caret line="1014" column="4" selection-start-line="1014" selection-start-column="4" selection-end-line="1014" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.5918728" vertical-offset="1297" max-vertical-offset="4012">
+          <caret line="1032" column="50" selection-start-line="1032" selection-start-column="50" selection-end-line="1032" selection-end-column="50" />
           <folding>
             <element signature="class#Obstacle#0" expanded="false" />
             <element signature="method#makeMenu#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#6859#8374#0" expanded="true" />
-            <element signature="e#6997#8348#0" expanded="true" />
-            <element signature="e#8347#8348#0" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
             <element signature="method#makeScores#0;class#MyActivity#0" expanded="false" />
             <element signature="method#makeGame#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#20650#27449#0" expanded="true" />
-            <element signature="e#20788#27423#0" expanded="true" />
-            <element signature="e#27422#27423#0" expanded="true" />
-            <element signature="e#27448#27449#0" expanded="true" />
             <element signature="method#makeGameOver#0;class#MyActivity#0" expanded="false" />
             <element signature="method#generateObstacle#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#checkCollision#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#37464#38708#0" expanded="true" />
-            <element signature="e#37702#38642#0" expanded="true" />
-            <element signature="e#38641#38642#0" expanded="true" />
-            <element signature="e#38707#38708#0" expanded="true" />
-            <element signature="e#40917#42161#0" expanded="true" />
-            <element signature="e#41155#42095#0" expanded="true" />
-            <element signature="e#42094#42095#0" expanded="true" />
-            <element signature="e#42160#42161#0" expanded="true" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MyActivity#0" expanded="false" />
-            <element signature="e#44147#44315#0" expanded="true" />
-            <element signature="e#44314#44315#0" expanded="true" />
             <element signature="class#Listener#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
