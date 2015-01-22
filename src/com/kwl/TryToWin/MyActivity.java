@@ -588,7 +588,8 @@ public class MyActivity extends Activity
             return;
         }
         t_obstacle[0] = Bitmap.createBitmap(bitmap, 0, 256, 50, 50);
-        t_obstacle[1] = Bitmap.createBitmap(bitmap, 128, 256, 100, 100);
+        t_bitmap = Bitmap.createBitmap(bitmap, 128, 256, 100, 100);
+        t_obstacle[1] = Bitmap.createScaledBitmap(t_bitmap, 200, 100, false);
 
         obstacles = new Obstacle[obstacles_num];
         generateObstacle();
@@ -997,7 +998,7 @@ public class MyActivity extends Activity
 
     private void generateObstacle()
     {
-        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 100, 100, 2);
+        obstacles[obstacles_current_num] = new Obstacle(screenWidth, screenHeight/2-25, 200, 100, 2);
         obstacles_view[obstacles_current_num] = new ImageView(this);
         obstacles_view[obstacles_current_num].setImageBitmap(t_obstacle[1]);
         obstacles_view[obstacles_current_num].setX(obstacles[obstacles_current_num].getX());
@@ -1020,11 +1021,17 @@ public class MyActivity extends Activity
             {
                 if ( isSliding )
                 {
-                    if ((player_x + 4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 120 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
+                    if ((player_x + 4 < obstacles[i].getX() + obstacles[i].getWidth()) && (player_x + 110 > obstacles[i].getX()) && (player_y < obstacles[i].getY() + obstacles[i].getHeight()) && (player_y + 120 > obstacles[i].getY()))
                     {
                         if (isOnObstacle)
                         {
-
+                            if ((obstacles[i].getX() + obstacles[i].getWidth() - player_x - 50 < 10))
+                            {
+                                isJumping = true;
+                                isJumpingDown = true;
+                                isOnObstacle = false;
+                                isSliding = false;
+                            }
                         }
                         else
                         {
@@ -1079,12 +1086,11 @@ public class MyActivity extends Activity
                         {
                             if (isOnObstacle)
                             {
-                                if ((obstacles[i].getX() + obstacles[i].getWidth() - player_x < global_speed*2.5))
+                                if ((obstacles[i].getX() + obstacles[i].getWidth() - player_x < 10))
                                 {
                                     isJumping = true;
                                     isJumpingDown = true;
                                     isOnObstacle = false;
-                                    isSliding = false;
                                 }
                             } else
                             {
@@ -1094,7 +1100,7 @@ public class MyActivity extends Activity
                                 isJumpingDown = false;
                                 isJumpingUp = false;
 
-                                player_y = obstacles[i].getY() - 117;
+                                player_y = obstacles[i].getY() - 118;
                                 player.setY(player_y);
                             }
                         } else
